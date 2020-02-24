@@ -54,7 +54,7 @@ class EducationPanel extends Component {
                                         education.Awards.length > 0 ? (
                                             <ExpansionPanel defaultExpanded>
                                                 <ExpansionPanelSummary expandIcon={<ExpandMoreIcon />}>
-                                                    <Typography variant="h5">{"Awards"}</Typography>
+                                                    <Typography variant="h5">{"Dropdown Box BBY"}</Typography>
                                                 </ExpansionPanelSummary>
                                                 <Divider variant="middle" />
                                                 {education.Awards.map((award) => (

@@ -42,15 +42,11 @@ class DetailTabPanel extends Component {
             <div className={styles.tabPanelRoot}>
                 <AppBar position="static">
                     <Tabs value={value} variant="fullWidth" onChange={this.handleChange}>
-                        <Tab className={styles.tabPanelText} label="My Experience" />
-                        <Tab className={styles.tabPanelText} label="My Skills" />
                         <Tab className={styles.tabPanelText} label="My Personal Projects" />
-                        <Tab className={styles.tabPanelText} label="My Education" />
+                        <Tab className={styles.tabPanelText} label="Education" />
                     </Tabs>
                 </AppBar>
                 <SwipeableViews animateHeight={true} className={styles.tabContainer} axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'} index={this.state.value} onChangeIndex={this.handleChangeIndex}>
-                    <ExperiencePanel dir={theme.direction}></ExperiencePanel>
-                    <SkillPanel dir={theme.direction}></SkillPanel>
                     <ProjectTabPanel dir={theme.direction}></ProjectTabPanel>
                     <EducationPanel dir={theme.direction}></EducationPanel>
                 </SwipeableViews>

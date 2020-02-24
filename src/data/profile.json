@@ -1,14 +1,12 @@
 {
-    "Name": "Demo User",
-    "Position": "Software Developer",
-    "Description": "Welcome to my website. My name is Demo User,I ❤️ Programming.",
-    "Address": "ShenZhen, China",
-    "Company": "Future Technologies",
-    "School": "University of Demo",
+    "Name": "David McAllister",
+    "Position": "Dat Guy",
+    "Description": "",
+    "Address": "Berkeley, CA",
+    "Company": "EECS",
+    "School": "UC Berkeley",
     "SocialMedias": [
-      "https://github.com/waynezhang1995",
-      "https://www.linkedin.com/in/wayne-zhang-ab5534129/",
-      "https://www.facebook.com/wayne.zhang.3"
+      "https://github.com/mcallisterdavid"
     ],
     "experiences": [
       {
@@ -220,7 +218,7 @@
     ],
     "Education": [
       {
-        "SchoolName": "University of Demo",
+        "SchoolName": "🐕",
         "Date": "2013 - 2017",
         "Degree": "Bachelor of Science - BS, Computer Science",
         "Location": "Vancouver BC. Canada",
@@ -229,7 +227,7 @@
         "SchoolLink": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg",
         "Awards": [
           {
-            "Name": "Award 1",
+            "Name": "Item 1",
             "Date": "Mar 2017",
             "Region": "Vancouver BC. Canada",
             "Organization": "Demo",
@@ -237,7 +235,7 @@
             "Link": "https://upload.wikimedia.org/wikipedia/commons/a/ac/No_image_available.svg"
           },
           {
-            "Name": "Award 2",
+            "Name": "Item 2",
             "Date": "May 2019",
             "Region": "Toronto ON. Canada",
             "Organization": "Demo",

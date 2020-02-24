@@ -38,9 +38,6 @@ class InfoCard extends Component {
                         <Typography variant="h3" className="name">
                             {profile.Name}
                         </Typography>
-                        <Typography variant="h5" className="position">
-                            {profile.Position}
-                        </Typography>
                         <Typography variant="h6" className="introduction">
                         {profile.Description}
                         </Typography>
@@ -53,12 +50,6 @@ class InfoCard extends Component {
                                     <LocationCityIcon />
                                 </Avatar>
                                 <ListItemText primary={profile.Address}/>
-                            </ListItem>
-                            <ListItem>
-                                <Avatar className={styles.infoIcon}>
-                                    <WorkIcon />
-                                </Avatar>
-                                <ListItemText primary={profile.Company}/>
                             </ListItem>
                             <ListItem>
                                 <Avatar className={styles.infoIcon}>
